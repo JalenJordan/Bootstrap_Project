@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bootstrap Project</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- inner Tabs -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul>
+                        <li>My Wishlist (0)</li>
+                        <li>My Account</li>
+                        <li>Shopping Cart</li>
+                        <li>Checkout</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <!-- Text with Login and create an account links-->
+                    <p>Welcome visitor you can <a href="#">login</a> or <a href="#">create an account</a></p> 
+                </div>
+            </div>
+        </div>
+        
+        <!-- Vendor. Logo-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="http://placehold.it/170x50" alt="logo">
+                </div>
+                <div class="col-sm-6">
+                    <!-- Tabs for ordering-->
+                    <ul>
+                        <a href="#">US Dollar</a>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">0 item(s) - $0.00</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- List of catorgeries -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul>
+                        <li><a href="#">FASHION</a></li>
+                        <li><a href="#">ELECTRONICS</a></li>
+                        <li><a href="#">GIFTS</a></li>
+                        <li><a href="#">BOOKS</a></li>
+                        <li><a href="#">AT HOME</a></li>
+                        <li><a href="#">MUSIC</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6">
+                    <!--Search Button-->
+                    <form action="#" method="get">
+                        <input type="text" placeholder="Search here...">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- First Picture of model -->
+        <img src="http://placehold.it/1920x500" alt="Model Picture">
+        
+        <!-- Pictures of sales and shipping-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="http://placehold.it/250x150" alt="Truck Picture">
+                </div>
+                <div class="col-sm-4">
+                    <img src="http://placehold.it/250x150" alt="Sale Picture">
+                </div>
+                <div class="col-sm-4">
+                    <img src="http://placehold.it/250x150" alt="New Arrivals">
+                </div>
+            </div>
+        </div>
+
+        <!-- first Header with forrm-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10">              
+                    <h2>| Lastest</h2>
+                </div>
+                <div class="col-sm-2">
+                    <button> < </button>
+                    <button> > </button>
+                </div>
+                <div class="col-sm-11">
+                    <p>Buy discount items from the latest collections of world brands.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Clothes-->
+        <div class="container">
+            <div class="row">
+                <form action="#" method="get">
+                    <div class="col-sm-3">
+                        <img src="http://placehold.it/150x150" alt="Jewelry Bracelet Cara Accesories">
+                        <p>Jewelry Bracelet Cara Accesories</p>
+                        <button type="submit">ADD TO CART</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="http://placehold.it/150x150" alt="Jessica London Short Trench Coat">
+                        <p>Jessica London Short Trench Coat</p>
+                        <button type="submit">ADD TO CART</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="http://placehold.it/150x150" alt="Mocca Stretch Leather Gloves">
+                        <p>Mocca Stretch Leather Gloves</p>
+                        <button type="submit">ADD TO CART</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="http://placehold.it/150x150" alt="Limited Edition Knitted Sweater">
+                        <p>Limited Edition Knitted Sweater</p>
+                        <button type="submit">ADD TO CART</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Start of the Second Half of the Page -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                <h2>| Welcome to Venedor</h2>
+                <p> Venedor is a fully responsive PSD theme designed for all types of platforms: WooCommerce, Magento, OpenCart, PrestaShop and other. Based on Bootstrap's 12 column 1200px responsive grid Template. Great looks on desktops, tablets and mobiles.</p>
+                <p>Sed interdum magna sit amet orci tristique blandit. Etiam id justo consequat quam viverra elementum. Sed ac magna sed massa rhoncus elementum et ac auge. Morbi non tellus nisi. Pellentesque habitant morbit tristique senectus. Vestibulum rutrum egestas mattis. Lorem ipsum dolor sit amet, consectetur adipisscing elt. <a href="#">Buy Venedor Theme!</a></p>
+                </div>
+                <div class="col-sm-7">
+                    <img src="http://placehold.it/500x300" alt="Picture of Electonics">
+                </div>
+            </div>
+        </div>
+        <!--Bestsellers section-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10">
+                    <h2>| Bestsellers</h2>
+                </div>
+                <div class="col-sm-2">
+                    <button type="submit"> < </button>
+                    <button type="submit"> > </button>
+                </div>
+                <div class="col-sm-11">
+                    <p>Special offers and biggest discounts for the most popular products.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Second Section of Clothes-->
+        <div class="container">
+            <div class="row">
+                <form action="#" method="get">
+                    <div class="col-sm-3">
+                        <img src="http://placehold.it/150x150" alt="Jewelry Bracelet
+                        Cara Accesories">
+                        <p>Jewelry Bracelet Cara Accesories</p>
+                        <button type="submit">ADD TO CART</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="http://placehold.it/150x150" alt="Jessica London Short Trench Coat">
+                        <p>Jessica London Short Trench Coat</p>
+                        <button type="submit">ADD TO CART</button>
+                        </div>
+                    <div class="col-sm-3">
+                        <img src="http://placehold.it/150x150" alt="Mocca Stretch Leather Gloves">
+                        <p>Mocca Stretch Leather Gloves</p>
+                        <button type="submit">ADD TO CART</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="http://placehold.it/150x150" alt="Limited Edition Knitted Sweater">
+                        <p>Limited Edition Knitted Sweater</p>
+                        <button type="submit">ADD TO CART</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-11">           
+                <h2>| Manufacturers</h2>
+                </div>
+                <div class="col-sm-1">
+                    <button> < </button>
+                    <button> > </button>
+                </div>
+            </div>
+        </div>
+        <!-- Manugacturers Section-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="http://placehold.it/150x60" alt="Brand LOGO">
+                </div>
+                <div class="col-sm-2">
+                    <img src="http://placehold.it/150x60" alt="Brand LOGO">
+                </div>
+                <div class="col-sm-2">
+                    <img src="http://placehold.it/150x60" alt="Brand LOGO">
+                </div>
+                <div class="col-sm-2">
+                    <img src="http://placehold.it/150x60" alt="Brand LOGO">
+                </div>
+                <div class="col-sm-2">
+                    <img src="http://placehold.it/150x60" alt="Brand LOGO">
+                </div>
+                <div class="col-sm-2">
+                    <img src="http://placehold.it/150x60" alt="Brand LOGO">
+                </div>
+            </div>
+        </div>
+        <!-- Outer Section -->
+        <div class="container">
+            <div class="row">
+                <form action="#" method="post">
+                    <div class="col-sm-6">
+                        <p>SIGN UP TO RECEIVE THE LATEST FASHION NEWS</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="email" name="email" id="#" placeholder="Enter your email address">
+                        <a href="#">SIGN UP</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!--footer-->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h2>MY ACCOUNT</h2>
+                        <ul>
+                            <li><a href="#">My account</a></li>
+                            <li><a href="#">Personal information</a></li>
+                            <li><a href="#">Addresses</a></li>
+                            <li><a href="#">Discount</a></li>
+                            <li><a href="#">Orders history</a></li>
+                            <li><a href="#">Your Vouchers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h2>INFORMATION</h2>
+                        <ul> 
+                            <li><a href="#">New products</a></li>
+                            <li><a href="#">Top sellers</a></li>
+                            <li><a href="#">Specials</a></li>
+                            <li><a href="#">Manufactures</a></li>
+                            <li><a href="#">Suppliers</a></li>
+                            <li><a href="#">Our stores</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h2>FROM TWITTER</h2>
+                        <p>Donec et tortor orci. Vestibulum ante ipsum primis in faucibus orci luctus etultrices posuere cubilia Curae <a href="#">http://t.co/MqacijST476</a></p>
+                        <p>Aliquam aliquam fermentum arcu. Sed et magna dolor, eu fermentum enim. Aliquam <a href="#">http://t.co/CCkfps248sq</a>consectetur ligula</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <h2>FACEBOOK</h2>
+                            <div class="col-sm-8">
+                            <p>1452 people like<a href="#">PromoKit</a></p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="http://placehold.it/60x30" alt="like"><a href="#"></a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img src="http://placehold.it/80x80" alt="Anna">
+                                <p>Anna</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="http://placehold.it/80x80" alt="Tom">
+                                <p>Tom</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="http://placehold.it/80x80" alt="Antuan">
+                                <p>Antuan</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img src="http://placehold.it/80x80" alt="Milla">
+                                <p>Milla</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="http://placehold.it/80x80" alt="Justine">
+                                <p>Justine</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="http://placehold.it/80x80" alt="Maria">
+                                <p>Maria</p>
+                            </div>                        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/50x50" alt="facebook">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/50x50" alt="tumblr">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/50x50" alt="wifi">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/50x50" alt="unknown">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/50x50" alt="linknd">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/50x50" alt="skype">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/50x50" alt="email">
+                        </div>
+                        <p>2012 Powered by WooComerce. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
