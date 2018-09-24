@@ -8,7 +8,64 @@ a:hover, a:active, a:focus {
      text-decoration: none;
 }
 
-.topbar{
+@media (min-width: 545px) {
+     .topbar{
+          border-top: #14c0c9 4px solid;
+          background-color: #f5f5f5;
+          padding: 6px 0;
+          margin-bottom: 20px;  
+          color: darkgray;
+     }
+     .topbar ul {
+          padding: 0;
+          margin: 0;
+     }
+     .topbar li {
+          display: inline;
+          margin-right: 30px;
+     }
+     .topbar p{
+          margin: 0;
+     }
+     .topbar a{
+          color: darkgray;
+     }
+     .topbar a:hover, .topbar a:active{
+          color: #14c0c9;
+     }
+     .login{
+          text-align: right;
+     }
+     .login a {
+          color: #14c0c9;
+     }
+     
+     .login a:hover {
+          color: darkgrey;
+     }
+     .logo{
+          margin-bottom: 35px;
+     }
+     .logo ul{
+          padding: 0;
+          margin-top: 30px;
+     }
+     .logo li{
+          display: inline;
+          border: 5px solid #f5f5f5;
+          background: #f5f5f5;
+          margin-right: 15px;
+          padding: 5px;
+     }
+     .logo a{
+          color: white;
+          border: 6px solid #14c0c9;
+          background-color: #14c0c9;
+          padding: 5px;
+     }
+}
+
+/* .topbar{
      border-top: #14c0c9 4px solid;
      background-color: #f5f5f5;
      padding: 6px 0;
@@ -33,6 +90,9 @@ a:hover, a:active, a:focus {
      color: #14c0c9;
 }
 
+.login{
+     text-align: center;
+}
 .login a {
      color: #14c0c9;
 }
@@ -52,7 +112,7 @@ a:hover, a:active, a:focus {
      display: inline;
      border: 5px solid #f5f5f5;
      background: #f5f5f5;
-     margin-left: 15px;
+     margin-right: 15px;
      padding: 5px;
 }
 .logo a{
@@ -61,9 +121,7 @@ a:hover, a:active, a:focus {
      background-color: #14c0c9;
      padding: 5px;
 }
-.logo a:hover{
-     text-decoration: none;
-}
+
 
 .categories{
      text-align: left;
@@ -78,8 +136,9 @@ a:hover, a:active, a:focus {
      font-size: 19px;
 }
 .categories form{
-     margin-left: 220px;
-     width: 210px;
+     text-align: right;
+     margin-left: 110px;
+     width: 310px;
 }
 .categories a{
      color: black;
@@ -89,9 +148,11 @@ a:hover, a:active, a:focus {
      color: #14c0c9;
 }
 
+
 .carousel{
      background: #d4d4d4;
      margin-top: 10px;
+     width: auto;
 }
 
 .carousel .item{
@@ -99,24 +160,8 @@ a:hover, a:active, a:focus {
 }
 
 .carousel .item img{
-     margin: 0 auto; /* Align slide image horizontally center */
+     margin: auto; /* Align slide image horizontally center */
 }
-
-/* .hero{
-     margin: 20px;
-} */
-
-/* .bane_of_my_life{
-     margin-left: 0px;
-     margin-right: 0px;
-     padding-left: 0px;
-     padding-right: 0px;
-}
-.hero{
-     margin-bottom: 5px;
-     margin-left: 0px;
-     margin-right: 0px;
-} */
 
 .advertising{
      margin-top: 15px;
@@ -154,10 +199,10 @@ a:hover, a:active, a:focus {
      font-size: 15px;
      width: 200px;
 }
-.clothes button{
-     text-align: center;
-     position: relative;
-     left: 100px;
+.clothes a{
+     margin-left: 55px;
+     text-align: left;
+     padding: 4px;
      background-color: #424a4a;
      color: #f5f5f5;
 }
@@ -200,9 +245,10 @@ a:hover, a:active, a:focus {
      font-size: 15px;
      width: 200px;
 }
-.second_clothes button{
-     position: relative;
-     left: 40px;
+.second_clothes a{
+     margin-left: 55px;
+     text-align: left;
+     padding: 4px;
      background-color: #424a4a;
      color: #f5f5f5
 }
@@ -330,8 +376,5 @@ a:hover, a:active, a:focus {
 }
 
 .end p{
-     position: relative;
-     bottom: 10px;
-     right: 380px;
+     text-align: right;
 } 
-

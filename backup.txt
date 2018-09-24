@@ -1,0 +1,348 @@
+.hero img{
+    width: 1200px;
+}
+
+a {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+    color: #14c0c9;
+    text-decoration: none;
+}
+
+.topbar{
+    border-top: #14c0c9 8px solid;
+    background-color: #f5f5f5;
+    padding: 6px 0;
+    margin-bottom: 27px;  
+    color: darkgray;
+    font-size: 30px;
+    width: 1200px;
+}
+.topbar ul {
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+}
+.topbar li {
+    padding: 0;
+    display: inline;
+    margin-right: 1px;
+}
+.topbar p{
+    font-size: 30px;
+}
+.topbar a{
+    color: darkgray;
+}
+.topbar a:hover, .topbar a:active{
+    color: #14c0c9;
+}
+.login{
+    margin-right: 0;
+    font-size: 40px;
+}
+.login a{
+    display: inline;
+}
+
+.logo{
+    margin-bottom: 35px;
+}
+.logo img{
+    text-align: center;
+    margin-left: 10px;
+    width: 768px;
+}
+.logo ul{
+    padding: 0;
+    margin-top: 30px;
+    text-align: right;
+}
+.logo li{
+    display: inline;
+    border: 5px solid #f5f5f5;
+    background: #f5f5f5;
+    margin-right: 5px;
+    padding: 5px;
+    text-align: left;
+    font-size:30px;
+}
+.logo a{
+    text-align: right;
+    color: white;
+    border: 6px solid #14c0c9;
+    background-color: #14c0c9;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.categories{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+.categories li{
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 6px;
+    font-size: 30px;
+}
+.categories form{
+    text-align: center;
+    width: 50px;
+    font-size: 20px;
+}
+.categories button{
+    text-align: center;
+}
+.categories a{
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.categories a:hover{
+    color: #14c0c9;
+}
+
+.advertising{
+    margin-top: 15px;
+    text-align: left;
+}
+.advertising img{
+    width: 1200px;
+    text-align: left;
+}
+
+.latest{
+    margin-top: 35px;
+}
+.latest h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+}
+.latest p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.latest button{
+    position: relative;
+    top: 25px;
+    left: 70px;
+}
+.latest button:hover{
+    background-color: #14c0c9;
+}
+
+.clothes{
+    margin-top: 25px;
+}
+.clothes img{
+    padding-right: 5px;
+    width: 50px;
+    margin-left: 50px;
+    
+}
+.clothes p{
+    text-align: center;
+    font-size: 15px;
+    width: 50px;
+}
+.clothes a{
+    margin-left: 55px;
+    text-align: left;
+    padding: 4px;
+    background-color: #424a4a;
+    color: #f5f5f5;
+}
+
+.second_section{
+    margin-top: 45px;
+}
+.second_section h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+}
+.second_section img{
+    padding-left: 36px;
+}
+.second_section p{
+    text-align: justify;
+}
+
+.bestseller{
+    margin-top:45px;
+}
+.bestseller h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 105px;
+}
+.bestseller button{
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+.bestseller button:hover{
+    background-color: #14c0c9;
+}
+.bestseller p{
+    font-size: 30px;
+}
+
+.second_clothes{
+    margin-top: 35px;
+}
+.second_clothes img{
+    padding: 0;
+    width:50px;
+    margin-left: 50px;
+}
+.second_clothes p{
+    text-align: center;
+    font-size: 15px;
+    width: 30px;
+}
+.second_clothes a{
+    margin-left: 55px;
+    text-align: left;
+    padding: 4px;
+    background-color: #424a4a;
+    color: #f5f5f5
+}
+
+.manufacturers{
+    margin-top: 35px;
+}
+.manufacturers h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px
+}
+.manufacturers button{
+    position: relative;
+    top: 25px;
+    left: 100px;
+}
+.manufacturers button:hover{
+    background-color: #14c0c9;
+}
+.manufacturers_logo img{
+    width: 100px;
+}
+
+.outer_section{
+    padding-bottom: 30px;
+    margin-top: 45px;
+    background-color: #d4d4d4;
+}
+.outer_section p{
+    position: relative;
+    top: 5px;
+    padding-top: 5px;
+    font-size: 10px;
+}
+.outer_section input{
+    position: relative;
+    top: 7px;
+    border: 3px gold solid;
+    background-color: transparent;
+    padding: 5px;
+    padding-right: 40px;
+    left: 100px;
+    text-decoration: none;
+}
+.outer_section a{
+    position: relative;
+    top: 9px;
+    border: 6px #424a4a solid;
+    background-color: #424a4a;
+    color: white;
+    font-size: 15px;
+    left: 100px;
+    text-decoration: none;
+}
+
+.foot{
+    background-color: #424a4a;
+}
+.foot h2{
+    color: #f5f5f5;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.foot ul{
+    list-style: square;
+    list-style-type: blue;
+    line-height: 20px;
+    font-size: 15px;
+    padding-left: 9px;
+}
+.foot li{
+    color: teal;
+    text-align: left;
+}
+.account a{
+    color: #d4d4d4;
+}
+.account a:hover{
+    color: #14c0c9;
+    text-decoration: none;
+}
+.information a{
+    color: #d4d4d4;
+}
+.information a:hover{
+    color: #14c0c9;
+    text-decoration: none;
+}
+.foot p{
+    color: #d4d4d4;
+}
+.photos img{
+    width: 50px;
+}
+.photos p{
+    text-align: center;
+}
+.photos2 p{
+    text-align: center;
+}
+.photos2 img{
+    width: 50px;
+}
+
+.foot{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.facebook img{
+    position: relative;
+    bottom: 3px;
+}
+
+.end{
+    margin-top: 25px;
+    position: relative;
+    top: 25px;
+    border-top: 1px solid;
+    background-color: #424a4a;
+    text-align: right;
+}
+
+.end img{
+    text-align: right;
+    margin-left: 0;
+}
+
+.bottom{
+    width: 400px;
+    margin-left: 25px;
+}
+
+.end p{
+    text-align: center;
+}     

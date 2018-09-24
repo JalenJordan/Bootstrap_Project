@@ -2,59 +2,54 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Bootstrap Project</title>
-        <meta name="vieewport" content="width-device-width, inital-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/bootstrap.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>Bootstrap Project</title>
     </head>
     <body>
-        <!-- inner Tabs -->
         <div class="topbar">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8">
+                    <div class="col-sm-6">
                         <ul>
-                            <li><i class="fas fa-edit"></i><a href="#"> My Wishlist (0)</a></li>
-                            <li><i class="fas fa-user"></i><a href="#"> My Account</a></li>
-                            <li><i class="fas fa-shopping-cart"></i></i><a href="#"> Shopping Cart</a></li>
-                            <li><i class="fas fa-check"></i><a href="#"> Checkout</a></li>
+                            <li><i class="fas fa-edit"></i> <span class="hidden-xs"> My Wishlist (0)</span></li>
+                            <li><i class="fas fa-user"></i> <span class="hidden-xs"> My Account</span></li>
+                            <li><i class="fas fa-shopping-cart"></i> <span class="hidden-xs"> Shopping Cart</span></li>
+                            <li><i class="fas fa-check"></i> <span class="hidden-xs"> Checkout</span></li>
                         </ul>
                     </div>
-                    <div class="login col-sm-4">
-                        <!-- Text with Login and create an account links-->
-                        <p>Welcome visitor you can <a href="#">login</a> or <a href="#">create an account</a></p> 
+                    <div class="col-sm-6">
+                        <p> <span class="hidden-xs"> Welcome vistor you can</span> <a href="#">Login</a> or <a href="#">Create an account</a></p>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <!-- Vendor. Logo-->
         <div class="logo">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8">
-                        <img src="images/vendorlogo.png" alt="logo">
+                    <div class="col-sm-6">
+                        <img src="images/vendorlogo.png" alt="Logo">
                     </div>
-                    <div class="col-sm-4">
-                        <!-- Tabs for ordering-->
+                    <div class="col-sm-6">
                         <ul>
                             <li>US Dollar</li>
-                            <li> English</li>
-                            <a href="#"><i class="fas fa-shopping-cart"></i></i> 0 item(s) - $0.00</a>
+                            <li> <img src="images/united-kingdom (1).png"> English</li>
+                            <li> <a href="#"> <i class="fas fa-shopping-cart"></i> 0 <span class="hidden-xs"> item(s) $0.00</span></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- List of categories -->
-        <div class="categories">
+        <div class="navbar">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-7">
+                <div class="row" style="width: 1140px;">
+                    <div class="col-sm-6">
                         <ul>
                             <li><a href="#">FASHION</a></li>
                             <li><a href="#">ELECTRONICS</a></li>
@@ -64,332 +59,304 @@
                             <li><a href="#">MUSIC</a></li>
                         </ul>
                     </div>
-
-                    <div class="col-sm-4">
-                        <!--Search Button-->
-                        <form action="#" method="get">
-                            <input type="text" placeholder="Search here...">
-                            <button type="submit"><i class="fas fa-search"></i></button>
+                    <div class="col-sm-6">
+                        <form action="#" method="post">
+                            <input type="text" name="searchbar" id="search-bar" placeholder="Search here...">
+                            <a href="#"><i class="fas fa-search"></i></a>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- First Picture of model -->
         <div class="hero">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Carousel indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>   
-                <!-- Wrapper for carousel items -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="images/hero.png" alt="First Slide">
-                    </div>
-                    <div class="item">
-                        <img src="images/hero.png" alt="Second Slide">
-                    </div>
-                    <div class="item">
-                        <img src="images/hero.png" alt="Third Slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img class="img-responsive" src="images/hero.png" alt="hero">
                     </div>
                 </div>
-                <!-- Carousel controls -->
-                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
             </div>
         </div>
-        
-        <!-- Pictures of sales and shipping-->
-        <div class="advertising">
+        <div class="advertisement">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4">
-                        <img src="images/truck.png" alt="Truck Picture">
+                        <img class="img-responsive" src="images/truck.png" alt="">
                     </div>
                     <div class="col-sm-4">
-                        <img src="images/sale.png" alt="Sale Picture">
+                        <img src="images/sale.png" alt="" class="img-responsive">
                     </div>
                     <div class="col-sm-4">
-                        <img src="images/newarrivals.png" alt="New Arrivals">
+                        <img src="images/newarrivals.png" alt="" class="img-responsive">
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- first Header with forrm-->
         <div class="latest">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-10">              
-                        <h2>| Lastest</h2>
+                    <div class="col-sm-9">
+                        <h2><span>|</span> Latest</h2>
                     </div>
-                    <div class="col-sm-2">
-                        <button> &lt;</button>
-                        <button> &gt; </button>
+                    <div class="arrows col-sm-3">
+                        <a href="#">&lt;</a>
+                        <a href="#">&gt;</a>
                     </div>
                     <div class="col-sm-11">
-                        <p>Buy discount items from the latest collections of world brands.</p>
+                        <p>Buy discount items from the latest collections of world brands</p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- Clothes-->
         <div class="clothes">
             <div class="container">
                 <div class="row">
-                    <form action="#" method="get">
-                        <div class="col-sm-3">
-                            <img src="images/braclet.png" alt="Jewelry Bracelet Cara Accesories">
-                            <p>Jewelry Bracelet Cara Accesories</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="images/coat.png" alt="Jessica London Short Trench Coat">
-                            <p>Jessica London Short Trench Coat</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="images/gloves.png" alt="Mocca Stretch Leather Gloves">
-                            <p>Mocca Stretch Leather Gloves</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="images/sweater.png" alt="Limited Edition Knitted Sweater">
-                            <p>Limited Edition Knitted Sweater</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                    </form>
+                    <div class="col-sm-3">
+                        <img class="img-responsive" src="images/braclet.png">
+                        <p> Jewerly Bracelet Cara Accessories</p>
+                        <a href="#">ADD TO CART</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <img class="img-responsive" src="images/coat.png">
+                        <p> Jessica London Short Trench Coat</p>
+                        <a href="#">ADD TO CART</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <img class="img-responsive" src="images/gloves.png">
+                        <p> Mocca Stretch Leather Gloves </p>
+                        <a href="#">ADD TO CART</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/sweater.png" class="img-responsive">
+                        <p> Limited Edition Knitted Sweater</p>
+                        <a href="#">ADD TO CART</a>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!-- Start of the Second Half of the Page -->
-        <div class="second_section">
+        <div class="welcome">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-5">
-                        <h2>| Welcome to Venedor</h2>
-                        <p> Venedor is a fully responsive PSD theme designed for all types of platforms: WooCommerce, Magento, OpenCart, PrestaShop and other. Based on Bootstrap's 12 column 1200px responsive grid Template. Great looks on desktops, tablets and mobiles.
-                        Sed interdum magna sit amet orci tristique blandit. Etiam id justo consequat quam viverra elementum. Sed ac magna sed massa rhoncus elementum et ac auge. Morbi non tellus nisi. Pellentesque habitant morbit tristique senectus. Vestibulum rutrum egestas mattis. Lorem ipsum dolor sit amet, consectetur adipisscing elt. <a href="#">Buy Venedor Theme!</a></p>
+                    <div class="col-sm-6">
+                        <h2><span>|</span> Welcome to Vendor</h2>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit, quas maiores est pariatur non, repellat adipisci in ipsam dolor dicta ducimus, error fuga dignissimos dolorem accusamus. Officia, doloremque labore!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, facilis eos aliquid nihil amet voluptas tempora vitae, optio nemo minima reprehenderit! Soluta dignissimos quis quibusdam doloremque adipisci molestias, explicabo error!
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quidem delectus animi, omnis, error quasi perferendis dolore, esse quam doloribus eveniet corporis fugiat ut aliquid facilis iste eaque veritatis numquam.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nesciunt, adipisci odio tempora nemo ab sequi, pariatur delectus quae veritatis, omnis nam illum. Vel, magnam non. Magni quod similique aliquid.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur vitae, provident nobis ut debitis eius odit, quasi ipsum nulla, corrupti hic iusto magni illo! Magnam illo eius natus aliquam soluta.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint pariatur vitae dignissimos, quis deserunt minus blanditiis temporibus, mollitia dolorum officia iste necessitatibus quae, inventore cum nisi ratione unde voluptas cupiditate?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum quae inventore expedita? Totam praesentium perspiciatis quo, ipsam nisi sequi cumque alias quam autem hic id delectus provident et consequatur dolore?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ex natus, molestiae quas, dolor et eveniet laudantium laborum iure aliquid consequatur ea. Beatae inventore<a href="#"> ipsa dolorum accusantium  aperiam, ipsum ullam.</a>
                     </div>
-                    <div class="col-sm-7">
-                        <img src="images/electronics.png" alt="Picture of Electonics">
+                    <div class="col-sm-6">
+                        <img src="images/electronics.png" class="img-responsive">
                     </div>
                 </div>
             </div>
         </div>
-        <!--Bestsellers section-->
         <div class="bestseller">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-10">
-                        <h2>| Bestsellers</h2>
+                        <h2><span>|</span> Bestseller</h2>
                     </div>
-                    <div class="col-sm-2">
-                        <button type="submit"> &lt; </button>
-                        <button type="submit"> &gt; </button>
+                    <div class="arrows2 col-sm-2">
+                        <a href="#"> &lt;</a>
+                        <a href="#"> &gt;</a>
                     </div>
                     <div class="col-sm-11">
-                        <p>Special offers and biggest discounts for the most popular products.</p>
+                        <p>Special offers and biggest discount for the most popular products</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Second Section of Clothes-->
-        <div class="second_clothes">
+        <br>
+        <br>
+        <div class="sec-clothes">
             <div class="container">
                 <div class="row">
-                    <form action="#" method="get">
-                        <div class="col-sm-3">
-                            <img src="images/heels.png" alt="Jewelry Bracelet
-                            Cara Accesories">
-                            <p>Jewelry Bracelet Cara Accesories</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="images/purse.png" alt="Jessica London Short Trench Coat">
-                            <p>Jessica London Short Trench Coat</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="images/shoes.png" alt="Mocca Stretch Leather Gloves">
-                            <p>Mocca Stretch Leather Gloves</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="images/whitecoat.png" alt="Limited Edition Knitted Sweater">
-                            <p>Limited Edition Knitted Sweater</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                    </form>
+                    <div class="col-xs-6 col-sm-3">
+                        <img src="images/heels.png" class="img-responsive">
+                        <p>Jewerly Bracelet Cara Accessories</p>
+                        <a href="#">ADD TO CART</a>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                        <img src="images/purse.png" class="img-responsive">
+                        <p>Jessica London Short Trench Coat</p>
+                        <a href="#">ADD TO CART</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/shoes.png" class="img-responsive">
+                        <p> Mocca Stretch Leather Gloves</p>
+                        <a href="#">ADD TO CART</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/whitecoat.png" class="img-responsive">
+                        <p> Limited Edition Knitted Sweater</p>
+                        <a href="#">ADD TO CART</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Manufacturers -->
         <div class="manufacturers">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-11">           
-                        <h2>| Manufacturers</h2>
+                    <div class="col-sm-10">
+                        <h2><span>|</span> Manufacturers</h2>
                     </div>
-                    <div class="col-sm-1">
-                        <button> &lt; </button>
-                        <button> &gt; </button>
+                    <div class="arrows3 col-sm-2">
+                        <a href="#"> &lt;</a>
+                        <a href="#"> &gt;</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img src="images/brandlogo.png" class="img-responsive">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="images/brandlogo.png" class="img-responsive">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="images/brandlogo.png" class="img-responsive">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="images/brandlogo.png"  class="img-responsive">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="images/brandlogo.png"  class="img-responsive">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="images/brandlogo.png"  class="img-responsive">
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Manufacturers Section-->
-        <div class="manufacturers_logo">
+        <div class="lower">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-2">
-                        <img src="images/brandlogo.png" alt="Brand LOGO">
+                    <div class="col-sm-6">
+                        <h3><span class="hidden-sm"> SIGN UP </span> RECIEVE <span class="hidden-sm"> THE LATEST FASHION</span> NEWS</h3>
                     </div>
-                    <div class="col-sm-2">
-                        <img src="images/brandlogo.png" alt="Brand LOGO">
-                    </div>
-                    <div class="col-sm-2">
-                        <img src="images/brandlogo.png" alt="Brand LOGO">
-                    </div>
-                    <div class="col-sm-2">
-                        <img src="images/brandlogo.png" alt="Brand LOGO">
-                    </div>
-                    <div class="col-sm-2">
-                        <img src="images/brandlogo.png" alt="Brand LOGO">
-                    </div>
-                    <div class="col-sm-2">
-                        <img src="images/brandlogo.png" alt="Brand LOGO">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Outer Section -->
-        <div class="outer_section">
-            <div class="container">
-                <div class="row">
-                    <form action="#" method="post">
-                        <div class="col-sm-6">
-                            <p>SIGN UP TO RECEIVE THE LATEST FASHION NEWS</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="email" name="email" id="#" placeholder="Enter your email address">
+                    <div class="sign-up col-sm-6">
+                        <form action="#" method="post">
+                            <input type="email" name="input" id="email-sign" placeholder="Enter your email address">
                             <a href="#">SIGN UP</a>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!--footer-->
-        <div class="foot">
-            <footer>
-                <div class="container">
-                    <div class="row">
-                        <div class=" account col-sm-3">
-                            <h2>MY ACCOUNT</h2>
-                            <ul>
-                                <li><a href="#">My account</a></li>
-                                <li><a href="#">Personal information</a></li>
-                                <li><a href="#">Addresses</a></li>
-                                <li><a href="#">Discount</a></li>
-                                <li><a href="#">Orders history</a></li>
-                                <li><a href="#">Your Vouchers</a></li>
-                            </ul>
-                        </div>
-                        <div class="information col-sm-3">
-                            <h2>INFORMATION</h2>
-                            <ul> 
-                                <li><a href="#">New products</a></li>
-                                <li><a href="#">Top sellers</a></li>
-                                <li><a href="#">Specials</a></li>
-                                <li><a href="#">Manufactures</a></li>
-                                <li><a href="#">Suppliers</a></li>
-                                <li><a href="#">Our stores</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-3">
-                            <h2>FROM TWITTER</h2>
-                            <p>Donec et tortor orci. Vestibulum ante ipsum primis in faucibus orci luctus etultrices posuere cubilia Curae <a href="#">http://t.co/MqacijST476</a></p>
-                            <p>Aliquam aliquam fermentum arcu. Sed et magna dolor, eu fermentum enim. Aliquam <a href="#">http://t.co/CCkfps248sq</a>consectetur ligula</p>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="row">
-                                <h2>FACEBOOK</h2>
-                                <div class="col-sm-8">
-                                <p>1452 people like<a href="#">PromoKit</a></p>
-                                </div>
-                                <div class=" facebook col-sm-4">
-                                    <img src="images/likebutton.png" alt="like"><a href="#"></a>
-                                </div>
+        <div class="bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="my-account col-sm-3">
+                        <h4>MY ACCOUNT</h4>
+                        <ul>
+                            <li><a href="#">My account</a></li>
+                            <li><a href="#">Personal information</a></li>
+                            <li><a href="#">Addresses</a></li>
+                            <li><a href="#">Discount</a></li>
+                            <li><a href="#">Orders history</a></li>
+                            <li><a href="#">Your Vouchers</a></li>
+                        </ul>
+                    </div>
+                    <div class="information col-sm-3">
+                        <h4>INFORMATION</h4>
+                        <ul>
+                            <li><a href="#">New products</a></li>
+                            <li><a href="#">Top sellers</a></li>
+                            <li><a href="#">Special</a></li>
+                            <li><a href="#">Manufacturers</a></li>
+                            <li><a href="#">Supplies</a></li>
+                            <li><a href="#">Our stores</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h4>FROM TWITTER</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quo corporis tempora aspernatur veniam. Cum nostrum mollitia, repellat sapiente quia iure unde temporibus pariatur, nihil veniam deserunt, <a href="#"> ad illo assumenda.</a></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero recusandae doloribus neque dolore repellat magnam fuga accusantium labore a magni! Reiciendis, tempore. Incidunt reiciendis nobis, <a href="#"> quas in quis praesentium eos!</a></p>
+                    </div>
+                    <div class="facebook col-sm-3">
+                        <div class="row">
+                            <h4>FACEBOOK</h4>
+                            <div class="like col-sm-3">
+                                <a href="#"><i class="far fa-thumbs-up"></i> <span class="hidden-sm"> Like!</span></a>
                             </div>
-                            <div class=" photos row">
-                                <div class="col-sm-4">
-                                    <img src="images/anna.png" alt="Anna">
-                                    <p>Anna</p>
-                                </div>
-                                <div class="col-sm-4">
-                                    <img src="images/tom.png" alt="Tom">
-                                    <p>Tom</p>
-                                </div>
-                                <div class="col-sm-4">
-                                    <img src="images/autuan.png" alt="Antuan">
-                                    <p>Antuan</p>
-                                </div>
+                            <br>
+                            <br>
+                            <div class="col-sm-10">
+                                <p>1452 people like<a href="#"> PromoKit</a></p>
                             </div>
-                            <div class="photos2 row">
-                                <div class="col-sm-4">
-                                    <img src="images/milla.png" alt="Milla">
-                                    <p>Milla</p>
-                                </div>
-                                <div class="col-sm-4">
-                                    <img src="images/justine.png" alt="Justine">
-                                    <p>Justine</p>
-                                </div>
-                                <div class="col-sm-4">
-                                    <img src="images/maria.png" alt="Maria">
-                                    <p>Maria</p>
-                                </div>                        
+                        </div>
+                        <div class="row">
+                            <div class="names col-xs-4 col-sm-4">
+                                <img src="images/anna.png" class="img-responsive">
+                                <p>Anna</p>
+                            </div>
+                            <div class="names col-xs-4 col-sm-4">
+                                <img src="images/tom.png" class="img-responsive">
+                                <p>Tom</p>
+                            </div>
+                            <div class="names col-sm-4">
+                                <img src="images/autuan.png" class="img-responsive">
+                                <p>Autuan</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="names col-sm-4">
+                                <img src="images/milla.png" class="img-responsive">
+                                <p>Milla</p>
+                            </div>
+                            <div class="names col-sm-4">
+                                <img src="images/justine.png" class="img-responsive">
+                                <p>Justine</p>
+                            </div>
+                            <div class="names col-sm-4">
+                                <img src="images/maria.png" class="img-responsive">
+                                <p>Maria</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </footer>
-            <footer class="end">
-                <div class="bottom row">
-                    <div class="col-sm-1">
-                        <img src="images/facebook.png" alt="facebook">
-                    </div>
-                    <div class="col-sm-1">
-                        <img src="images/tumblr.png" alt="tumblr">
-                    </div>
-                    <div class="col-sm-1">
-                        <img src="images/network.png" alt="wifi">
-                    </div>
-                    <div class="col-sm-1">
-                        <img src="images/pic.png" alt="unknown">
-                    </div>
-                    <div class="col-sm-1">
-                        <img src="images/pic2.png" alt="linknd">
-                    </div>
-                    <div class="col-sm-1">
-                        <img src="images/skype.png" alt="skype">
-                    </div>
-                    <div class="col-sm-1">
-                        <img src="images/mail.png" alt="email">
-                    </div>
-                </div>
-                <p>2012 Powered by WooComerce. All Rights Reserved</p>
-            </footer>
+            </div>
         </div>
+        <hr>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="symbols col-sm-6">
+                        <div class="col-sm-1">
+                            <img src="images/facebook.png" class="img-responsive">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="images/network.png" class="img-responsive">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="images/tumblr.png" class="img-responsive">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="images/pic.png" class="img-responsive">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="images/linkend.png" class="img-responsive">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="images/pic2.png" class="img-responsive">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="images/skype.png"  class="img-responsive">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="images/mail.png" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="copyright col-sm-6">
+                        <p><i class="far fa-copyright"></i> 2012 Powered by WooComerce. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

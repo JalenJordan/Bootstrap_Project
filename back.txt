@@ -3,12 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title>Bootstrap Project</title>
-        <meta name="vieewport" content="width-device-width, inital-scale=1">
-        <link rel="stylesheet" href="css/bootstrap.css">
+        <meta name="viewport" content="width-device-width, inital-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
@@ -17,17 +18,17 @@
         <div class="topbar">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8">
+                    <div class=" col-xs-8 col-sm-8 col-md-8 col-lg-8">
                         <ul>
-                            <li> <i class="fas fa-edit"></i>My Wishlist (0)</li>
-                            <li><i class="fas fa-user"></i> My Account</li>
-                            <li><i class="fas fa-shopping-cart"></i></i> Shopping Cart</li>
-                            <li><i class="fas fa-check"></i> Checkout</li>
+                            <li><a href="#"><i class="fas fa-edit"></i><span class="hidden-sm"> My Wishlist (0) </span></a></li>
+                            <li><a href="#"><i class="fas fa-user"></i><span class="hidden-sm"> My Account </span></a></li>
+                            <li><a href="#"><i class="fas fa-shopping-cart"></i><span class="hidden-sm"> Shopping Cart </span></a></li>
+                            <li><a href="#"> <i class="fas fa-check"></i><span class="hidden-sm"> Checkout </span></a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="login col-xs-4 col-sm-4 col-md-4 col-lg-4">
                         <!-- Text with Login and create an account links-->
-                        <p>Welcome visitor you can <a href="#">login</a> or <a href="#">create an account</a></p> 
+                        <p><span class="hidden-sm">Welcome visitor you can </span><a href="#">login</a> or <a href="#">create an account</a></p> 
                     </div>
                 </div>
             </div>
@@ -37,10 +38,10 @@
         <div class="logo">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8">
+                    <div class="col-xs-5 col-sm-5 col-md-7 col-lg-7">
                         <img src="images/vendorlogo.png" alt="logo">
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-xs-7 col-sm-7 col-md-4 col-lg-5">
                         <!-- Tabs for ordering-->
                         <ul>
                             <li>US Dollar</li>
@@ -55,7 +56,7 @@
         <div class="categories">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-7">
+                    <div class="col-xs-7 col-sm-7">
                         <ul>
                             <li><a href="#">FASHION</a></li>
                             <li><a href="#">ELECTRONICS</a></li>
@@ -66,7 +67,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-xs-5 col-sm-5">
                         <!--Search Button-->
                         <form action="#" method="get">
                             <input type="text" placeholder="Search here...">
@@ -144,34 +145,34 @@
         </div>
 
         <!-- Clothes-->
-        <div class="clothes">
-            <div class="container">
-                <div class="row">
-                    <form action="#" method="get">
-                        <div class="col-sm-3">
-                            <img src="images/braclet.png" alt="Jewelry Bracelet Cara Accesories">
-                            <p>Jewelry Bracelet Cara Accesories</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="images/coat.png" alt="Jessica London Short Trench Coat">
-                            <p>Jessica London Short Trench Coat</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="images/gloves.png" alt="Mocca Stretch Leather Gloves">
-                            <p>Mocca Stretch Leather Gloves</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="images/sweater.png" alt="Limited Edition Knitted Sweater">
-                            <p>Limited Edition Knitted Sweater</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                    </form>
-                </div>
+        <!-- <div class="clothes"> -->
+        <div class="container">
+            <div class="clothes row">
+                <form action="#" method="get">
+                    <div class="col-sm-3">
+                        <img src="images/braclet.png" alt="Jewelry Bracelet Cara Accesories">
+                        <p>Jewelry Bracelet Cara Accesories</p>
+                        <a href="#">ADD TO CART</a> 
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/coat.png" alt="Jessica London Short Trench Coat">
+                        <p>Jessica London Short Trench Coat</p>
+                        <a href="#">ADD TO CART</a> 
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/gloves.png" alt="Mocca Stretch Leather Gloves">
+                        <p>Mocca Stretch Leather Gloves</p>
+                        <a href="#">ADD TO CART</a> 
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/sweater.png" alt="Limited Edition Knitted Sweater">
+                        <p>Limited Edition Knitted Sweater</p>
+                        <a href="#"> ADD TO CART</a>
+                    </div>
+                </form>
             </div>
         </div>
+        <!-- </div> -->
 
         <!-- Start of the Second Half of the Page -->
         <div class="second_section">
@@ -196,8 +197,8 @@
                         <h2>| Bestsellers</h2>
                     </div>
                     <div class="col-sm-2">
-                        <button type="submit"> < </button>
-                        <button type="submit"> > </button>
+                        <button type="submit"> &lt; </button>
+                        <button type="submit"> &gt; </button>
                     </div>
                     <div class="col-sm-11">
                         <p>Special offers and biggest discounts for the most popular products.</p>
@@ -206,33 +207,31 @@
             </div>
         </div>
         <!-- Second Section of Clothes-->
-        <div class="second_clothes">
-            <div class="container">
-                <div class="row">
-                    <form action="#" method="get">
-                        <div class="col-sm-3">
-                            <img src="images/heels.png" alt="Jewelry Bracelet
-                            Cara Accesories">
-                            <p>Jewelry Bracelet Cara Accesories</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="images/purse.png" alt="Jessica London Short Trench Coat">
-                            <p>Jessica London Short Trench Coat</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="images/shoes.png" alt="Mocca Stretch Leather Gloves">
-                            <p>Mocca Stretch Leather Gloves</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="images/whitecoat.png" alt="Limited Edition Knitted Sweater">
-                            <p>Limited Edition Knitted Sweater</p>
-                            <button type="submit">ADD TO CART</button>
-                        </div>
-                    </form>
-                </div>
+        <div class="container">
+            <div class="second_clothes row">
+                <form action="#" method="get">
+                    <div class="col-sm-3">
+                        <img src="images/heels.png" alt="Jewelry Bracelet
+                        Cara Accesories">
+                        <p>Jewelry Bracelet Cara Accesories</p>
+                        <a href="">ADD TO CART</a> 
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/purse.png" alt="Jessica London Short Trench Coat">
+                        <p>Jessica London Short Trench Coat</p>
+                        <a href="">ADD TO CART</a> 
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/shoes.png" alt="Mocca Stretch Leather Gloves">
+                        <p>Mocca Stretch Leather Gloves</p>
+                        <a href="">ADD TO CART</a> 
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/whitecoat.png" alt="Limited Edition Knitted Sweater">
+                        <p>Limited Edition Knitted Sweater</p>
+                        <a href=""> ADD TO CART</a>
+                    </div>
+                </form>
             </div>
         </div>
         <!-- Manufacturers -->
@@ -243,8 +242,8 @@
                         <h2>| Manufacturers</h2>
                     </div>
                     <div class="col-sm-1">
-                        <button> < </button>
-                        <button> > </button>
+                        <button> &lt; </button>
+                        <button> &gt; </button>
                     </div>
                 </div>
             </div>

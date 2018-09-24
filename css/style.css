@@ -1,334 +1,260 @@
-a {
-     color: darkgrey;
-     text-decoration: none;
+ul{
+    list-style: none;
 }
-
-a:hover, a:active, a:focus {
-     color: #14c0c9;
-     text-decoration: none;
-}
-
 .topbar{
-     border-top: #14c0c9 4px solid;
-     background-color: #f5f5f5;
-     padding: 6px 0;
-     margin-bottom: 20px;  
-     color: darkgray;
+    color: gray;
+    background: whitesmoke;
 }
-.topbar ul {
-     padding: 0;
-     margin: 0;
+.topbar ul{
+    padding-left: 0;
 }
-.topbar li {
-     display: inline;
-     margin-right: 30px;
+.topbar li{
+    margin-right: 10px;
+    display: inline;
+}
+.topbar p, .topbar a{
+    text-align: right;
+    color: gray;
+}
+.topbar a:hover{
+    color:  #14c0c9;
+    text-decoration: none;
 }
 .topbar p{
-     margin: 0;
+    color: gray;
 }
-.topbar a{
-     color: darkgray;
-}
-.topbar a:hover, .topbar a:active{
-     color: #14c0c9;
-}
-
-.login a {
-     color: #14c0c9;
-}
-
-.login a:hover {
-     color: darkgrey;
-}
-
 .logo{
-     margin-bottom: 35px;
+    margin-top: 25px;
 }
 .logo ul{
-     padding: 0;
-     margin-top: 30px;
+    text-align: right;
+    padding-top: 22px;
 }
 .logo li{
-     display: inline;
-     border: 5px solid #f5f5f5;
-     background: #f5f5f5;
-     margin-left: 15px;
-     padding: 5px;
+    margin-right: 11px;
+    color: gray;
+    text-align: right;
+    display: inline;
 }
 .logo a{
-     color: white;
-     border: 6px solid #14c0c9;
-     background-color: #14c0c9;
-     padding: 5px;
+    color: white;
+    border: 5px solid  #14c0c9;
+    background:  #14c0c9;
 }
-
-.categories{
-     text-align: left;
-     margin-bottom: 15px;
+.navbar{
+    margin-top: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-.categories ul{
-     padding: 0;
+.navbar ul{
+    padding-left: 0;
 }
-.categories li{
-     display: inline;
-     margin-right: 38px;
-     font-size: 19px;
+.navbar li{
+    margin-right: 10px;
+    display: inline;
+    font-size: 15px;
 }
-.categories form{
-     margin-left: 220px;
-     width: 210px;
+.navbar form{
+    text-align: right;
+    margin-right: 11px;
 }
-.categories a{
-     color: black;
-     font-family: 'Roboto Condensed', sans-serif;
+.navbar form>input{
+    padding-right:8px;
 }
-.categories a:hover{
-     color: #14c0c9;
+.navbar form>a{
+    color: white;
+    border: 4px solid gray;
+    background: gray;
 }
-
-.carousel{
-     background: #d4d4d4;
-     margin-top: 10px;
+.navbar a{
+    color: gray;
 }
-
-.carousel .item{
-     min-height: 100px; /* Prevent carousel from being distorted if for some reason image doesn't load */
-}
-
-.carousel .item img{
-     margin: 0 auto; /* Align slide image horizontally center */
-}
-
-/* .hero{
-     margin: 20px;
-} */
-
-/* .bane_of_my_life{
-     margin-left: 0px;
-     margin-right: 0px;
-     padding-left: 0px;
-     padding-right: 0px;
-}
-.hero{
-     margin-bottom: 5px;
-     margin-left: 0px;
-     margin-right: 0px;
-} */
-
-.advertising{
-     margin-top: 15px;
-     position: relative;
-     right: 20px;
+.advertisement{
+    margin-top: 10px;
 }
 
 .latest{
-     margin-top: 35px;
+    margin-top: 40px;
 }
 .latest h2{
-     font-family: 'Roboto Condensed', sans-serif;
-     font-size: 35px;
+    font-size: 30px;
 }
-.latest p{
-     font-family: 'Roboto Condensed', sans-serif;
+.latest span{
+    color: turquoise;
 }
-.latest button{
-     position: relative;
-     top: 25px;
-     left: 90px;
-}
-.latest button:hover{
-     background-color: #14c0c9;
-}
-
 .clothes{
-     margin-top: 25px;
+    text-align: center;
 }
-.clothes img{
-     padding-right: 5px;
+.clothes a{
+    border: 5px solid #424242;
+    background:  #424a4a;
+    padding: 3px;
+    color: white;
 }
-.clothes p{
-     text-align: center;
-     font-size: 15px;
-     width: 200px;
+.welcome{
+    margin-top: 35px;
 }
-.clothes button{
-     text-align: center;
-     position: relative;
-     left: 100px;
-     background-color: #424a4a;
-     color: #f5f5f5;
+.welcome h2{
+    font-size: 30px;
 }
-
-.second_section{
-     margin-top: 45px;
+.welcome span{
+    color: turquoise;
 }
-.second_section h2{
-     font-family: 'Roboto Condensed', sans-serif;
-     font-size: 35px;
-}
-.second_section img{
-     padding-left: 36px;
-}
-.second_section p{
-     text-align: justify;
-}
-
 .bestseller{
-     margin-top:45px;
+    margin-top: 40px;
 }
 .bestseller h2{
-     font-family: 'Roboto Condensed', sans-serif;
-     font-size: 35px;
+    font-size: 30px;
 }
-.bestseller button{
-     position: relative;
-     top: 30px;
-     left: 100px;
+.bestseller span{
+    color: turquoise;
 }
-.bestseller button:hover{
-     background-color: #14c0c9;
+.arrows{
+    text-align: center;
+}
+.arrows a{
+    font-size: 20px;
+    border: 4px solid white;
+    background: white;
+    color:  gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.arrows a:hover{
+    border: 4px solid #14c0c9;
+    background: #14c0c9;
+    color: white;
+    text-decoration: none;
+}
+.arrows2 {
+    text-align: center;
+}
+.arrows2 a{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border: 4px solid whitesmoke;
+    background: whitesmoke;
+    color:  gray;
+    font-size: 20px;
+}
+.arrows2 a:hover{
+    color:#14c0c9;
+    border: 4px solid #14c0c9;
+    background: #14c0c9;
+    color: white;
+    text-decoration: none;
 }
 
-.second_clothes{
-     margin-top: 35px;
+.sec-clothes{
+    text-align: center;
 }
-.second_clothes p{
-     text-align: center;
-     font-size: 15px;
-     width: 200px;
+.sec-clothes img{
+    padding-left: 10px;
 }
-.second_clothes button{
-     position: relative;
-     left: 40px;
-     background-color: #424a4a;
-     color: #f5f5f5
+.sec-clothes a{
+    border: 5px solid #424242;
+    background: #424242;
+    color: white;
+    padding: 3px;
 }
-
 .manufacturers{
-     margin-top: 35px;
+    margin-top: 35px;
 }
 .manufacturers h2{
-     font-family: 'Roboto Condensed', sans-serif;
-     font-size: 35px
+    font-size: 30px;
 }
-.manufacturers button{
-     position: relative;
-     top: 25px;
+.manufacturers span{
+    color: turquoise;
 }
-.manufacturers button:hover{
-     background-color: #14c0c9;
+.arrows3{
+    text-align: center;
 }
+.arrows3 a{
+    font-size: 25px;
+    border: 5px solid white;
+    background: white;
+    color: gray;
+}
+.arrows3 a:hover{
+    border: 5px solid #14c0c9;
+    background: #14c0c9;
+    color: white;
+    text-decoration: none;
+}
+.lower{
+    margin-top: 35px;
+    background: gray;
+    padding: 20px;
+    padding-bottom: 35px;
+}
+.lower form{
+    text-align: right;
+}
+.lower form>input{
+    border: 3px solid yellow;
+    padding: 3px;
 
-.outer_section{
-     padding-bottom: 30px;
-     margin-top: 45px;
-     background-color: #d4d4d4;
 }
-.outer_section p{
-     position: relative;
-     top: 15px;
-     padding-top: 10px;
-     font-size: 20px;
-}
-.outer_section input{
-     position: relative;
-     top: 15px;
-     border: 3px gold solid;
-     background-color: transparent;
-     padding: 5px;
-     padding-right: 80px;
-     left: 200px;
-     text-decoration: none;
-}
-.outer_section a{
-     position: relative;
-     top: 17px;
-     border: 6px #424a4a solid;
-     background-color: #424a4a;
-     color: white;
-     font-size: 20px;
-     left: 200px;
-     text-decoration: none;
-}
-
-.foot{
-     background-color: #424a4a;
-}
-.foot h2{
-     color: #f5f5f5;
-     font-size: 25px;
-     font-family: 'Roboto Condensed', sans-serif;
-}
-.foot ul{
-     list-style: square;
-     list-style-type: blue;
-     line-height: 40px;
-     font-size: 15px;
-     padding-left: 18px;
-}
-.foot li{
-     color: teal;
-     text-align: left;
-}
-.account a{
-     color: #d4d4d4;
-}
-.account a:hover{
-     color: #14c0c9;
-     text-decoration: none;
-}
-.information a{
-     color: #d4d4d4;
-}
-.information a:hover{
-     color: #14c0c9;
-     text-decoration: none;
-}
-.foot p{
-     color: #d4d4d4;
-}
-
-.photos p{
-     text-align: center;
-}
-.photos2 p{
-     text-align: center;
-}
-
-.foot{
-     padding-top: 25px;
-     padding-bottom: 25px;
-}
-
-.facebook img{
-     position: relative;
-     bottom: 12px;
-}
-
-.end{
-     margin-top: 50px;
-     position: relative;
-     top: 50px;
-     border-top: 1px solid;
-     background-color: #424a4a;
-     text-align: right;
-}
-
-.end img{
-     margin-right: 0;
-     position: relative;
-     top: 20px;
-     left: 370px;
+.lower form>a{
+    color: white;
+    border: 5px #424242 solid;
+    background: #424242;
+    padding: 3px;
 }
 
 .bottom{
-     width: 800px;
-     margin-right: 300px;
+    /* margin-top: 35px; */
+    text-align: justify;
+    background: #424242;
+    padding-top: 12px;
 }
-
-.end p{
-     position: relative;
-     bottom: 10px;
-     right: 380px;
-} 
-
+.my-account ul{
+    list-style: square;
+}
+.my-account ul{
+    padding-left: 14px;
+}
+.my-account a{
+    color:gray;
+}
+.my-account a:hover{
+    color: #14c0c9;
+    text-decoration: none;
+}
+.information ul{
+    list-style: square;
+    padding-left: 14px;
+}
+.information a{
+    color: gray;
+}
+.information a:hover{
+    color: #14c0c9;
+}
+.facebook h4{
+    padding-left: 13px;
+}
+.like a{
+    border: #14c0c9 solid 4px;
+    background: #14c0c9;
+    color: white;
+}
+.names{
+    text-align: center;
+    color:white;
+}
+hr{
+    margin: 0;
+    background: #000;
+}
+footer{
+    background: #424242;
+}
+.symbols{
+    margin-top: 10px;
+}
+.copyright{
+    margin-top: 10px;
+    text-align: right;
+}
